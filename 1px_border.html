@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" id="WebViewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+		<!-- 参考链接：https://segmentfault.com/a/1190000007604842 -->
+		<style>
+			.border {
+				width: 50px;
+				height: 50px;
+				padding: 20px;
+				margin: 20px;
+			}
+			.border1 {
+				border: 1px solid #ccc;
+			}
+			.border2 {
+				border: .5px solid #ccc;
+			}
+			.border3 {
+				/* border-radius: 5px;
+				-webkit-box-shadow: 0px 0px 1px 0.5px rgba(0, 0, 0, 0.5); */
+				-webkit-box-shadow:0 1px 1px -1px rgba(0, 0, 0, 0.5);
+			}
+			.border4::after {
+				display: inline-block;
+			    content: '';
+			    width: 100%;
+			    border-bottom: 1px solid #f00;
+			    transform: scaleY(0.5);/* 没有这句 则边框显示为2px */
+			}
+			.border5::after {
+				content: '';
+			    width: 200%;
+			    height: 200%;
+			    position: absolute;
+			    top: 0;
+			    left: 0;
+			    border: 1px solid #bfbfbf;
+			    border-radius: 4px;
+			    -webkit-transform: scale(0.5,0.5);
+			    transform: scale(0.5,0.5);
+			    -webkit-transform-origin: top left;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="border border1"></div>
+		<div class="border border2"></div>
+		<div class="border border3"></div>
+		<div class="border border4"></div>
+		<div class="border border5"></div>
+		<script>
+			//window.devicePixelRatio;//2
+			alert(document.documentElement.clientWidth)
+		</script>
+	</body>
+</html>

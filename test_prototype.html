@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script>
+			function Persion(name){
+				this.name = name;
+			}
+			Persion.prototype.getName = function(){
+				return this.name;
+			}
+			Persion.prototype.banji = 'class_one';
+			Persion.prototype.obj = {school: 'junior'};
+
+			var person1 = new Persion('person1');
+			var person2 = new Persion('person2');
+
+			console.log(person1.getName === person2.getName);//true prototype上的方法为所有实例共享
+
+			//简单类型 不影响其他实例
+			console.log(person1.banji);//class_one
+			person1.banji = 'class_two';
+			console.log(person1.banji, person2.banji);//class_one  class_two
+
+			//只改复杂类型属性 影响其他实例
+			console.log(person1.obj);//junior
+			person1.obj.school = 'senior';
+			console.log(person1.obj, person2.obj);//senior senior
+
+			//复杂类型整体改 不会影响其他实例
+			console.log(person1.obj);//junior
+			person1.obj = {school: 'senior'};
+			console.log(person1.obj, person2.obj);//senior junior
+		</script>
+	</body>
+</html>

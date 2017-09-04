@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<ul class="dragList">
+			<li draggable="true" ondragstart="dragStart(event)" ondrop="drop(event)" ondragover="dragover(event)">我是第1个节点</li>
+			<li draggable="true" ondragstart="dragStart(event)" ondrop="drop(event)" ondragover="dragover(event)">我是第2个节点</li>
+			<li draggable="true" ondragstart="dragStart(event)" ondrop="drop(event)" ondragover="dragover(event)">我是第3个节点</li>
+			<li draggable="true" ondragstart="dragStart(event)" ondrop="drop(event)" ondragover="dragover(event)">我是第4个节点</li>
+			<li draggable="true" ondragstart="dragStart(event)" ondrop="drop(event)" ondragover="dragover(event)">我是第5个节点</li>
+		</ul>
+		<script>
+			var targetEle = null;
+			function dragStart(e){
+				targetEle = e.target;
+				//e.dataTransfer.setData('ele', targetEle);
+			};
+			function dragover(e){
+				e.preventDefault();//阻止浏览器的默认行为，允许元素进行drop
+			}
+			function drop(e){
+				e.preventDefault();
+				//var ele = e.dataTransfer.getData('ele');
+				//document.querySelector('.dragList').appendChild(targetEle);
+				document.querySelector('.dragList').insertBefore(targetEle, e.target);
+			}
+		</script>
+	</body>
+</html>

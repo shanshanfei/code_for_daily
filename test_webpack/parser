@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="zh_cn">
+
+<head>
+
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<meta name="keywords" content="省油宝, 淘词, 北斗">
+<meta name="description" content="产品体验">
+<title>产品体验 -- 杭州麦苗网络技术有限公司</title>
+<link rel="shortcut icon" href="/favicon.ico">
+
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/news/feeds/rss/">
+<link rel="alternate" type="application/atom+xml" title="Atom" href="/news/feeds/atom/">
+
+<link rel="stylesheet" href="./static/css/mm.css?20160719">
+<script type="text/javascript">
+    function iFrameHeight() {
+        var ifm = document.getElementById("iframepage");
+        var subWeb = document.frames ? document.frames["iframepage"].document : ifm.contentDocument;
+        if(ifm != null && subWeb != null) {
+            ifm.height = subWeb.body.scrollHeight;
+            /*ifm.width = subWeb.body.scrollWidth;*/
+        }
+    }
+
+    function SetWinHeight(obj) {
+        var win = obj;
+        if (document.getElementById) {
+            if (win && !window.opera) {
+                console.log(win, win.contentDocument)
+                if (win.contentDocument && win.contentDocument.body.offsetHeight)
+                    win.height = win.contentDocument.body.offsetHeight;
+                else if(win.Document && win.Document.body.scrollHeight)
+                    win.height = win.Document.body.scrollHeight;
+            }
+        }
+    }
+</script>
+
+</head>
+<body id="body">
+<div class="header">
+    <div class="logo">
+        <a href="/">
+            <img src="./static/images/logo.png?20150522"  width="110" height="56" >
+        </a>
+    </div>
+    <div class="navbar menu-nav">
+        <a href="./index.html" >首页</a>
+        <!-- <a href="/news" >新闻动态</a> -->
+        <a href="./service">产品和服务</a>
+        <a href="./experience"  class="active">产品体验区</a>
+        <a href="./about" >关于我们</a>
+        <a href="./recruitment" >人才招聘</a>
+        <a href="./contact" >联系我们</a>
+    </div>
+</div>
+<div style="border-top: 1px solid #ccc;background-color: #f7f7f7;">
+    <div class="container clearfix">
+        <!-- <iframe width="100%" height="100%" style="min-height: 820px" src="http://syb.maimiaotech.com/rules_parser?fromnew" name="iframeparer" frameborder="0"></iframe> -->
+        <iframe width="100%" style="min-height: 1140px;" src="" name="iframepage" id="iframepage" frameborder="0"></iframe>
+    </div>
+</div>
+
+<div class="footer clearfix">
+    <div class="container clearfix">
+        <div class="logo fl">
+            <img src="./static/images/logo_footer.png?20150522">
+        </div>
+        <dl class="nobor">
+            <dt>产品和服务</dt>
+            <dd><a href="/service">服务介绍</a></dd>
+            <dd><a href="/service">产品介绍</a></dd>
+            <dd><a href="http://www.maimiaotech.com/syb.html">省油宝</a></dd>
+        </dl>
+        <dl>
+            <dt>新闻动态</dt>
+            <dd>公司动态</dd>
+            <dd>行业动态</dd>
+        </dl>
+        <dl>
+            <dt>关于我们</dt>
+            <dd><a href="/about">公司介绍</a></dd>
+            <dd><a href="/about">团队介绍</a></dd>
+        </dl>
+        <dl>
+            <dt>人才招聘</dt>
+            <dd><a href="/recruitment">岗位招聘</dd>
+            <dd><a href="/recruitment">人才培训</a></dd>
+            <dd><a href="/recruitment">价值观</a></dd>
+            <dd><a href="/recruitment">员工福利</a></dd>
+        </dl>
+        <dl>
+            <dt>联系我们</dt>
+            <dd><a href="/contact">公司地址</a></dd>
+            <dd><a href="/contact">联系电话</a></dd>
+        </dl>
+        <div class="phone"><i class="icon icon-phone"></i> 400-0807-086</div>
+
+    </div>
+    <div class="container clearfix use-link">
+        <span>友情链接：&nbsp;&nbsp;</span>
+        <a href="http://about.comix.com.cn/#home" target="_blank">齐心集团官网</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="http://www.17cai.com/control/main" target="_blank">齐采网</a>
+    </div>
+    <p class="clearfix">Copyright © 杭州麦苗网络技术有限公司 2012 <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010602001426" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="http://static.maimiaotech.com/icon-police.png" style="float:left;margin: 2px 4px 0 4px;"/>浙公网安备 33010602001426号</a></p>
+</div>
+
+<script type="text/javascript" src="./static/js/jquery.min.js"></script>
+<script type="text/javascript">
+$(function(){
+    //ref来源始终带着
+    var ref_str;
+    var LINK_RE = /.*(?:\&|\?)ref=(\w+)\&?.*/;
+    if(location.href.indexOf('ref=') > -1){
+        ref_str = location.href.match(LINK_RE);
+        if(ref_str[1]){//每个导航都带上ref
+            $.each($('.menu-nav a'), function(i, el){
+                $(el).attr('href', $(el).attr('href')+'?ref='+ref_str[1]);
+            });
+        }
+    }
+    if(location.href.indexOf('fromnew') > -1){
+        document.getElementById('iframepage').src = 'http://syb.maimiaotech.com/rules_parser?fromnew';
+    }else{
+        document.getElementById('iframepage').src = 'http://syb.maimiaotech.com/rules_parser?fromimport';
+    }
+})
+</script>
+
+<!--百度统计代码-->
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?cdf011a9ef990ca0279ffdab9ccb5605";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+</body>
+</html>

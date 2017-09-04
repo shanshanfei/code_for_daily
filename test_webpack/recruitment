@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="zh-cn">
+
+<head>
+
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<meta name="keywords" content="麦苗科技, 人才招聘">
+<meta name="description" content="人才招聘">
+<title>人才招聘 -- 杭州麦苗网络技术有限公司</title>
+<link rel="shortcut icon" href="/favicon.ico">
+
+
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/news/feeds/rss/">
+<link rel="alternate" type="application/atom+xml" title="Atom" href="/news/feeds/atom/">
+
+
+
+<link rel="stylesheet" href="./static/css/mm.css?20160719">
+
+
+
+
+
+</head>
+<body id="body">
+<div class="header">
+    <div class="logo">
+        <a href="/">
+            <img src="./static/images/logo.png?20150522"  width="110" height="56" >
+        </a>
+    </div>
+    <div class="navbar menu-nav">
+        <a href="./index.html">首页</a>
+        <!-- <a href="/news" >新闻动态</a> -->
+        <a href="./service.html">产品和服务</a>
+        <a href="./experience">产品体验区</a>
+        <a href="./about">关于我们</a>
+        <a href="./recruitment"  class="active">人才招聘</a>
+        <a href="./contact.html">联系我们</a>
+    </div>
+</div>
+
+<div class="banner-top banner-recruitment"></div>
+<div class="container clearfix">
+    <div class="nav">
+        <a class="nav-tab active" href="#">人才招聘</a>
+        <a class="nav-tab" href="#">人才培训</a>
+        <a class="nav-tab" href="#">价值观</a>
+        <a class="nav-tab" href="#">员工福利</a>
+    </div>
+    <div class="nav-content">
+        <ul class="nav-left">
+            <li class="active"><a href="#">算法研发工程师</a></li>
+            <li><a href="#">网站开发工程师 <i class="icon icon-hot"></i></a></li>
+            <li><a href="#">前端开发工程师</a></li>
+            <li><a href="#">系统工程师</a></li>
+            <li><a href="#">产品经理</a></li>
+            <li><a href="#">软件测试工程师</a></li>
+            <li><a href="#">市场营销经理 <i class="icon icon-hot"></i></a></li>
+            <li><a href="#">客户关系经理</a></li>
+            <li><a href="#">大客户经理</a></li>
+            <li><a href="#">大客户销售</a></li>
+            <li><a href="#">手机客户端开发工程师</a></li>
+            <li><a href="#">直通车软件售后客服</a></li>
+        </ul>
+        <ul class="right-content">
+            <li>
+                <h1>算法研发工程师</h1>
+
+                <h2>工作职责</h2>
+                <p>参与麦苗直通车优化系统的算法开发维护, 改进系统效果，提升效率, 稳定性和处理能力 <br>
+                参与新产品的开发 </p>
+                <h2>职位要求(多项满足即可):</h2>
+                <p>1. 优秀的分析问题和解决问题能力, 喜欢解决有挑战性的技术问题<br>
+                2. 对数据结构和算法有较好理解<br>
+                3. 至少掌握一门编程语言C/C++/JAVA/PYTHON<br>
+                4. 有Linux开发能力, 熟悉Shell编程更佳<br>
+                5. 良好的沟通能力和团队合作精神<br>
+                6. 有互联网广告系统开发和设计经验者优先</p>
+                <h2>联系方式</h2>
+                <p>
+                    招聘热线：0571-28225332<br>
+                    HR邮箱：hr@maimiaotech.com
+                </p>
+            </li>
+
+            <li style="display:none">
+                <h1>网站开发工程师</h1>
+
+                <h2>工作职责</h2>
+                <p>1.网站服务器端的架构设计和功能开发<br>
+2.用户体验的改善优化</p>
+                <h2>职位要求</h2>
+                <p>1. 本科及以上学历，至少精通一门开发语言(C++/Java/Php/Python)<br>
+2.有Linux开发能力, 熟悉Shell编程<br>
+3.至少熟悉一种主流Web框架</p>
+                <h2>联系方式</h2>
+                <p>
+                    招聘热线：0571-28225332<br>
+                    HR邮箱：hr@maimiaotech.com
+                </p>
+            </li>
+            <li style="display:none">
+                <h1>前端开发工程师</h1>
+
+                <h2>岗位职责</h2>
+                <p>1.网站前端架构设计和功能开发<br>
+2.用户体验的实现和改善</p>
+                <h2>任职资格</h2>
+                <p>1. 本科及以上学历，掌握javascript/jQuery/、HTML、CSS等前端技术<br>
+2.有网站开发经验，特别是Ajax网站开发经验<br>
+3.熟悉任意一种编程语言<br>
+4.熟悉面板语言（Django；freemark；mako等任意一种）<br>
+5.对web前端技术钻研有强烈的兴趣，有良好的学习能力和强烈的进取心</p>
+                <h2>联系方式</h2>
+                <p>
+                    招聘热线：0571-28225332<br>
+                    HR邮箱：hr@maimiaotech.com
+                </p>
+            </li>
+            <li style="display:none">
+                <h1>系统工程师</h1>
+
+                <h2>工作职责</h2>
+                <p>1.开放平台数据获取系统的设计和开发<br>
+2.数据分析系统设计和开发<br>
+3.系统日常维护和性能优化 </p>
+                <h2>任职资格</h2>
+                <p>1. 本科及以上学历，至少精通一门开发语言（C++/Java/PHP/Python）<br>
+2.至少具有一种数据库的使用经验（MySQL/Oracle/Mongodb）<br>
+3.精通shell编程，熟悉Linux系统管理</p>
+                <h2>联系方式</h2>
+                <p>
+                    招聘热线：0571-28225332<br>
+                    HR邮箱：hr@maimiaotech.com
+                </p>
+            </li>
+            <li style="display:none">
+                <h1>产品经理</h1>
+                <h2>岗位职责</h2>
+                <p>1.负责并独立执行产品需求分析工作，设计产品的业务流程、DEMO、编写产品需求和USE CASE等;<br>
+2.负责和开发、测试及运营人员紧密协同，确保产品实现进度和质量<br>
+3.跟踪、监控产品上线后的运营情况，不断对产品进行完善，维持产品的优化升级</p>
+                <h2>任职资格</h2>
+                <p>1. 本科及以上学历，有一定的产品经理工作经验，从需求确认、产品原型、PRD编写、资源协调和后期的测试和bug处理等能比较好的掌控<br>
+2.自我驱动力强，善于沟通、协调和项目管理，能独立规划并推动产品的发展<br>
+3. 优秀的文档能力和展现能力<br>
+4.计算机相关专业，本科或以上学历</p>
+                <h2>联系方式</h2>
+                <p>
+                    招聘热线：0571-28225332<br>
+                    HR邮箱：hr@maimiaotech.com
+                </p>
+            </li>
+            <li style="display:none">
+                <h1>软件测试工程师</h1>
+                <h2>岗位职责</h2>
+                <p>1.参与软件产品的需求分析,负责测试计划制定,并能预先评估项目的风险，负责软件产品的测试用例设计<br>
+2.执行项目测试,包括: 构建测试环境,集成测试,回归测试等；<br>
+3.执行软件产品的性能测试和分析,预测系统性能瓶颈,风险和安全隐患</p>
+                <h2>任职资格</h2>
+                <p>1. 本科及以上学历，至少熟悉一门开发语言(C++/Java/Php/Python)<br>
+2.精通测试用例设计,精通单元测试，精通压力测试脚本设计,掌握系统性能测试方法<br>
+3.熟悉Linux或Unix操作系统,熟悉各种脚本语言<br>
+4.计算机相关专业，本科或以上学历</p>
+                <h2>联系方式</h2>
+                <p>
+                    招聘热线：0571-28225332<br>
+                    HR邮箱：hr@maimiaotech.com
+                </p>
+            </li>
+            <li style="display:none">
+                <h1>市场营销经理</h1>
+                <h2>岗位职责</h2>
+                <p>1.负责产品宣传和流量购买, 策划市场活动等市场营销工作<br>
+2.负责公司产品的整体销售业绩，负责管理、支持和运营团队<br>
+3.统筹团队协作与分工，合理安排并监督各团队业绩目标的预期和实际进展<br>
+4.根据公司战略、市场研究和用户需求，制定长期的运营和营销规划<br>
+5.对市场和行业动向能及时发现，并合理制定或修正线上推广，软件活动以及专题活动的策划方案，以结果为导向</p>
+            <h2>任职资格</h2>
+                <p>1.本科及以上学历，市场传媒或市场营销专业为佳<br>
+2.至少2年在市场营销岗位，或互联网领域产品、运营、营销相关岗位工作经验<br>
+3.有市场营销的成功案例，有成熟的工作技能，较好的沟通能力和业务规划能力，能独立承担大项目的策划和实施，或有完整负责 某个项目运营经验<br>
+4.有一定的数据分析能力和文字功底，对数据敏感，对新业务感兴趣有极大的热情<br>
+5.了解互联网特性，了解用户心理，有敏锐的判断力，能大胆创新</p>
+                <h2>联系方式</h2>
+                <p>
+                    招聘热线：0571-28225332<br>
+                    HR邮箱：hr@maimiaotech.com
+                </p>
+            </li>
+            <li style="display:none">
+                <h1>客户关系经理</h1>
+                <h2>岗位职责</h2>
+                <p>1. 负责客户关系维护, 包括培训, 互动活动组织, 会员等级维护等.<br>
+2. 负责客户优惠续签活动策略和执行</p>
+                <h2>任职资格</h2>
+                <p>1.本科及以上学历，市场传媒或市场营销专业为佳<br>
+2.成熟的工作技能，较好的沟通能力和业务规划能力<br>
+3.很强的创新能力、沟通能力，以结果为导向，有团队合作精神<br>
+4.了解互联网特性，了解用户心理，有敏锐的判断力，能大胆创新</p>
+                <h2>联系方式</h2>
+                <p>
+                    招聘热线：0571-28225332<br>
+                    HR邮箱：hr@maimiaotech.com
+                </p>
+            </li>
+            <li style="display:none">
+                <h1>大客户经理</h1>
+                <h2>岗位职责</h2>
+                <p>1.与销售团队协作制定营销策略并执行搜索引擎营销方案，有效管理搜索引擎账户<br>
+2.通过提案、调研及数据搜集分析，支持开拓新业务<br>
+3.积极掌握客户的业务发展情况；了解竞争对手以及最新行业发展动态<br>
+4.根据客户的目标，全面负责优化工作，与媒介合作建立搜索引擎账户<br>
+5.维护客户关系，每月与客户开会进行效果、数据分析，作季度、年度总结报告<br>
+6.完成财务报表<br>
+7.管理并指导团队工作</p>
+                <h2>任职资格</h2>
+                <p>1.本科及以上学历，2年及以上相关岗位经验者优先<br>
+2.优秀的沟通技巧，擅长策划以及与大客户打交道<br>
+3.成熟的工作技能，较好的协调能力和业务规划能力<br>
+4.有良好的团队合作精神和敏锐的判断力，能大胆创新<br>
+5. 了解用户心理，了解互联网特性，以结果为导向 ，完成客户目标</p>
+                <h2>联系方式</h2>
+                <p>
+                    招聘热线：0571-28225332<br>
+                    HR邮箱：hr@maimiaotech.com
+                </p>
+            </li>
+
+            <li style="display:none">
+                <h1>大客户销售</h1>
+                <h2>岗位职责</h2>
+                <p>1.负责淘宝商城和皇冠店客户，对其进行公司产品的销售<br>
+2.有相关行业客户资源，对客户关键人有一定的把握能力，能够完成公司下达的业绩目标<br>
+3.对公司现有的客户进行维护，提高客户的忠诚度；开发新客户</p>
+                <h2>任职资格</h2>
+                <p>1.大专及以上学历，1年以上大客户销售经验<br>
+2.优秀的沟通技能及销售技巧，互联网/电子商务行业优先<br>
+3.能找准客户需求，了解客户心理，为企业量身制定合理的方案<br>
+4. 性格开朗自信，工作富有激情，心理素质好，有一定的抗压能力和应变能力；<br>
+5. 普通话标准，吐字清晰，口齿伶俐，语言表达能力强；</p>
+                <h2>联系方式</h2>
+                <p>
+                    招聘热线：0571-28225332<br>
+                    HR邮箱：hr@maimiaotech.com
+                </p>
+            </li>
+            <li style="display:none">
+                <h1>手机客户端开发工程师</h1>
+                <h2>岗位职责</h2>
+                <p>承担推荐引擎Android或iOS SDK及应用开发与升级工作；</p>
+                <h2>任职资格</h2>
+                <p>1 精通iOS应用开发或精通Android应用开发；<br>
+                2 具有一定的实战经验，独立开发过具有较为复杂功能的应用或SDK；</p>
+                <h2>联系方式</h2>
+                <p>
+                    招聘热线：0571-28225332<br>
+                    HR邮箱：hr@maimiaotech.com
+                </p>
+            </li>
+            <li style="display:none">
+                <h1>直通车软件售后客服</h1>
+                <h2>岗位职责</h2>
+                <p>1,负责协调解决客户使用直通车软件产品中遇到的相关问题<br>
+                2,根据客户情况及相关数据分析,为客户提供解决方案建议，提升客户直通车营销效果<br>
+                3,与客户进行有效沟通,提升客户对产品的认可度,<br>
+                4,能够挖掘客户潜在需求, 促使达成长久业务合作</p>
+                <h2>岗位要求</h2>
+                <p>1,积极主动,较强的学习和理解能力,快速掌握新知识<br>
+2,具备较强的客户沟通能力, 具有同理心, 能够站在客户角度思考问题, 提高客户满意度。<br>
+3,有较强的自我管理能力和抗压能力<br>
+4,其他加分项:有半年以上淘宝客服经验</p>
+                <h2>联系方式</h2>
+                <p>
+                    招聘热线：0571-28225332<br>
+                    HR邮箱：hr@maimiaotech.com
+                </p>
+            </li>
+        </ul>
+    </div>
+    <div class="nav-content training" style="display:none">
+        <h1>新人培训模式：一对一培训</h1>
+        <ul class="train-info clearfix">
+            <li>
+                <img src="./static/images/yfry.jpg?20150523">
+                <h2>研发人员</h2>
+                <p>如果您是开发人员，那么恭喜你，你不会再像以前一样一人默默研究，在这里会有一位专业经验的开发人员帮您一对一指导，让你在工作中得到飞速发展。</p>
+            </li>
+            <li>
+                <img src="./static/images/xsgw.jpg?20150523">
+                <h2>销售顾问</h2>
+                <p>如果您销售顾问，那么更恭喜你。在这里你会学会更多东西，让你从一个一点不懂直通车的新手，变成专业的车手。丰富的资料和分享，并让有经验的车手给你专业的指导。</p>
+            </li>
+        </ul>
+        <hr>
+        <h1>基本培训内容：</h1>
+        <ul class="train-list clearfix">
+            <li><a href="#">基本常识</a></li>
+            <li><a href="#">省油宝软件基本</a></li>
+            <li><a href="#">北斗软件基本</a></li>
+            <li><a href="#">其他软件基本</a></li>
+
+            <li><a href="#">基本原理</a></li>
+            <li><a href="#">优化操作</a></li>
+            <li><a href="#">省油宝及插件版</a></li>
+            <li><a href="#">利用软件开好车</a></li>
+
+            <li><a href="#">店铺日常推广</a></li>
+            <li><a href="#">深度了解</a></li>
+            <li><a href="#">店铺日常数据工具</a></li>
+            <li><a href="#">问题的分析与解决</a></li>
+
+            <li><a href="#">目标设定及管理</a></li>
+            <li><a href="#">好的做事习惯</a></li>
+            <li><a href="#">高效的效执行力</a></li>
+        </ul>
+    </div>
+    <div class="nav-content" style="display:none">
+        <ul class="values clearfix">
+            <li>
+                <img src="./static/images/jqkl.jpg?20150523">
+                <h1>激情、快乐</h1>
+                <h2>乐观积极，共享共担，永不放弃</h2>
+                <h4>描述：</h4>
+                <p>
+                    1. 喜欢自己的工作，认同公司价值观和企业文化 。<br>
+                    2. 热爱公司，顾全大局，不计较个人得失，愿与团队共分享共承担。<br>
+                    3. 以积极乐观的心态面对日常工作，碰到困难和挫折的时候不抱怨、不放弃；不断自我激励，努力提升业绩。<br>
+                    4. 保持积极乐观的心态，能主动影响并带动同事和团队，传递正能量。<br>
+                    5. 对从事的工作饱含激情，快乐工作，享受工作。<br>
+
+                </p>
+            </li>
+            <li class="border">
+                <img src="./static/images/jycz.jpg?20150523">
+                <h1>敬业、成长</h1>
+                <h2>专业投入，执着创新，精益求精</h2>
+                <h4>描述：</h4>
+                <p>
+                    1. 今天的事不推到明天，上班时间只做与工作有关的事情。<br>
+                    2. 遵循必要的工作流程，没有因工作失职而造成的重复错误。<br>
+                    3. 持续学习，自我完善，做事情充分体现以结果为导向。<br>
+                    4. 遵循但不拘泥于工作流程，敢于尝试和创新，提升产品质量和工作效率.<br>
+                    5. 不断设定更高的目标，今天的最好表现是明天的最低要求。<br>
+                </p>
+            </li>
+            <li>
+                <img src="./static/images/cxjd.jpg?20150523">
+                <h1>诚信、简单</h1>
+                <h2>诚实正直，言行坦荡，信任开放</h2>
+                <h4>描述：</h4>
+                <p>
+                    1. 诚实正直，表里如一。<br>
+                    2. 通过正确的渠道和流程，准确表达自己的观点；表达批评意见的同时能提出相应建议，直言有讳。<br>
+                    3. 不传播未经证实的消息，不背后不负责任地议论事和人。能正面引导，对于任何意见和反馈“有则改之，无则加勉”。<br>
+                    4. 勇于承认错误，敢于承担责任，并及时改正。<br>
+                    5. 对损害公司利益的不诚信行为，要及时并正确有效地制止。<br>
+                </p>
+            </li>
+        </ul>
+    </div>
+    <div class="nav-content welfare" style="display:none">
+        <h3>在麦苗这些你都无需担心。我们拥有完善的福利体系，正规的法定假日，还有家人般的员工关怀。</h3>
+        <img src="./static/images/ygfl.jpg?20150523">
+    </div>
+</div>
+
+
+
+<div class="footer clearfix">
+    <div class="container clearfix">
+        <div class="logo fl">
+            <img src="./static/images/logo_footer.png?20150522">
+        </div>
+        <dl class="nobor">
+            <dt>产品和服务</dt>
+            <dd><a href="/service">服务介绍</a></dd>
+            <dd><a href="/service">产品介绍</a></dd>
+            <dd><a href="http://www.maimiaotech.com/syb.html">省油宝</a></dd>
+        </dl>
+        <dl>
+            <dt>新闻动态</dt>
+            <dd>公司动态</dd>
+            <dd>行业动态</dd>
+        </dl>
+        <dl>
+            <dt>关于我们</dt>
+            <dd><a href="/about">公司介绍</a></dd>
+            <dd><a href="/about">团队介绍</a></dd>
+        </dl>
+        <dl>
+            <dt>人才招聘</dt>
+            <dd><a href="/recruitment">岗位招聘</dd>
+            <dd><a href="/recruitment">人才培训</a></dd>
+            <dd><a href="/recruitment">价值观</a></dd>
+            <dd><a href="/recruitment">员工福利</a></dd>
+        </dl>
+        <dl>
+            <dt>联系我们</dt>
+            <dd><a href="/contact">公司地址</a></dd>
+            <dd><a href="/contact">联系电话</a></dd>
+        </dl>
+        <div class="phone"><i class="icon icon-phone"></i> 400-0807-086</div>
+
+    </div>
+    <div class="container clearfix use-link">
+        <span>友情链接：&nbsp;&nbsp;</span>
+        <a href="http://about.comix.com.cn/#home" target="_blank">齐心集团官网</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="http://www.17cai.com/control/main" target="_blank">齐采网</a>
+    </div>
+    <p class="clearfix">Copyright © 杭州麦苗网络技术有限公司 2012 <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010602001426" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="http://static.maimiaotech.com/icon-police.png" style="float:left;margin: 2px 4px 0 4px;"/>浙公网安备 33010602001426号</a></p>
+</div>
+
+<script type="text/javascript" src="./static/js/jquery.min.js"></script>
+<script type="text/javascript">
+$(function(){
+    //ref来源始终带着
+    var ref_str;
+    var LINK_RE = /.*(?:\&|\?)ref=(\w+)\&?.*/;
+    if(location.href.indexOf('ref=') > -1){
+        ref_str = location.href.match(LINK_RE);
+        if(ref_str[1]){//每个导航都带上ref
+            $.each($('.menu-nav a'), function(i, el){
+                $(el).attr('href', $(el).attr('href')+'?ref='+ref_str[1]);
+            });
+        }
+    }
+    $(".nav-left a").click(function(e) {
+        e.preventDefault()
+        var index = $(this).parent().index()
+        $(".nav-left li").removeClass('active').eq(index).addClass('active')
+        $(".right-content li").hide().eq(index).show()
+    });
+
+    $(".nav-tab").click(function(e) {
+        e.preventDefault()
+
+        var index = $(this).index()
+        $(".nav-tab").removeClass('active').eq(index).addClass('active')
+        $(".nav-content").hide().eq(index).show()
+    });
+})
+</script>
+
+<!--百度统计代码-->
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?cdf011a9ef990ca0279ffdab9ccb5605";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+</body>
+</html>

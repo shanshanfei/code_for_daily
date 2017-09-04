@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>div模拟textarea</title>
+		<style>
+			.textarea {
+				border: 1px solid #ccc;
+				padding: 20px;
+				width: 200px;
+				min-height: 100px;
+				/* 可以设置一个最大高度，超出时滚动，否则，高度会被撑开 */
+				/* max-height: 300px; */
+				overflow: auto;
+			}
+		</style>
+	</head>
+	<body>
+		<h3>利用块级元素的contenteditable属性</h3>
+		<div class="textarea" contenteditable="true"></div>
+	</body>
+</html>

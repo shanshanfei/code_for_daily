@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="zh_cn">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta name="keywords" content="省油宝, 淘词, 北斗">
+    <meta name="description" content="产品体验">
+    <title>产品体验 -- 杭州麦苗网络技术有限公司</title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/news/feeds/rss/">
+    <link rel="alternate" type="application/atom+xml" title="Atom" href="/news/feeds/atom/">
+    <link rel="stylesheet" href="./static/css/mm.css?20160719">
+    <style>
+        body {
+            position: relative;
+        }
+        .nav-content.active {
+            display:block;
+/*            margin-bottom: 20px;*/
+        }
+        .nav-content {
+            display:none;
+        }
+        #yhgzzx {
+            padding-top: 20px;
+            margin-bottom: 40px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body id="body">
+    <div class="header">
+        <div class="logo">
+            <a href="/">
+                <img src="./static/images/logo.png?20150522"  width="110" height="56" >
+            </a>
+        </div>
+        <div class="navbar menu-nav">
+            <a href="./index.html">首页</a>
+            <!-- <a href="/news" >新闻动态</a> -->
+            <a href="./service.html">产品和服务</a>
+            <a href="./experience"  class="active">产品体验区</a>
+            <a href="./about">关于我们</a>
+            <a href="./recruitment" >人才招聘</a>
+            <a href="./contact.html">联系我们</a>
+        </div>
+    </div>
+
+    <div class="banner-top banner-exprience">
+        <a target="_blank" href="https://fuwu.taobao.com/ser/detail.html?service_code=ts-1796606&tracelog=experience_banner" style="display:inline-block;width:100%;height:100%"></a>
+    </div>
+    <div class="container clearfix" style="margin-bottom: 40px;">
+        <div class="nav">
+            <a class="nav-tab" href="#rules_preview">规则分享区</a>
+            <a class="nav-tab" href="#yhgzzx">优化规则中心</a>
+            <!-- <a class="nav-tab" href="#gwcreative">创意优化</a> -->
+            <a class="nav-tab" href="#xuanci">自动选词</a>
+            <a class="nav-tab" href="#gwtaoci">手动淘词</a>
+            <a class="nav-tab" href="#price">优化出价</a>
+        </div>
+        <div class="nav-content active" id="rules_preview">
+            <iframe width="100%" style="min-height:580px" src="" name="iframerules_preview" id="iframerules_preview" frameborder="0" scrolling="no"></iframe>
+        </div>
+        <div class="nav-content" id="yhgzzx">
+            <div class="fl experience-fl2">
+                <h1 class="mt0">领航版 · 优化规则中心</h1>
+                <div class="btn-bg">
+                    <img src="./static/images/btn_bg.png?20160512">
+                    <a href="http://www.maimiaotech.com/parser?fromnew" class="link-parser link-new"></a>
+                    <a href="http://www.maimiaotech.com/parser?fromimport" class="link-parser link-import"></a>
+                </div>
+                <h1 class="mt50">操作说明</h1>
+                <div class="experience-img">
+                    <img src="./static/images/step.png?20160512">
+                </div>
+            </div>
+            <div class="fl experience-fl">
+                <h1 class="mt0">功能简介</h1>
+                <ul>
+                    <li>优化规则引擎是省油宝领航版独有的，可以自由DIY定制优化规则的智能引擎。</li>
+                    <li>满足关键词、宝贝、计划的个性化推广需求。打造“私人订制”优化计划。</li>
+                </ul>
+                <h1 class="mt60">使用说明</h1>
+                <ul>
+                    <li>此页面支持新增优化规则的体验，以及优化规则分享包的预览和修改。</li>
+                    <li>若要使用规则包请在领航版优化规则管理页面使用。</li>
+                </ul>
+                <div>
+                    <a target="_blank" href="https://fuwu.taobao.com/ser/detail.html?spm=a1z13.1113643.0.0.QjiYXD&service_code=ts-1796606&from=gw_yhgzzx" class="experience-see-more" p-categorie="优化规则分享-详情页" p-action="click">查看更多详情</a>
+
+                    <a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E9%BA%A6%E8%8B%97%E7%BD%91%E7%BB%9C%E6%8A%80%E6%9C%AF&amp;siteid=cntaobao&amp;status=2&amp;charset=utf-8"><img style="vertical-align: middle;" border="0" src="./static/images/realonline.aw.gif?20160512" alt="点击这里给我发消息" p-categorie="优化规则分享-点我咨询" p-action="click"></a>
+                </div>
+            </div>
+        </div>
+        <div class="nav-content" id="gwcreative" style="margin-top:40px;display:none">
+            <iframe width="100%" style="min-height:650px" src="" name="iframegwcreative" id="iframegwcreative" frameborder="0" ></iframe>
+            <div class="common-row">
+                <div class="common-row-l">
+                    <h3 class="ty-title">功能简介</h3>
+                    <ul class="ty-msg">
+                        <li>创意优化功能帮助用户方便快捷的制作美观的直通车创意图片，提升点击率。包含50套精美的模板，可拖动和修改。在省油宝内可直接上传为创意，自动测试创意和优化创意标题。
+                        </li>
+                    </ul>
+                </div>
+                <div class="common-row-r">
+                    <h3 class="ty-title">使用说明</h3>
+                    <ul class="ty-msg">
+                        <li>此页面支持图片上传和创意添加；更多详情请购买省油宝软件或咨询客服。</li>
+                    </ul>
+                    <div class="mt30">
+                        <a target="_blank" href="https://fuwu.taobao.com/ser/detail.html?spm=a1z13.1113643.0.0.QjiYXD&amp;service_code=ts-1796606&amp;from=gw_creative" class="experience-see-more" p-categorie="自定义创意-详情页" p-action="click">查看更多详情</a>
+
+                        <a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E9%BA%A6%E8%8B%97%E7%BD%91%E7%BB%9C%E6%8A%80%E6%9C%AF&amp;siteid=cntaobao&amp;status=2&amp;charset=utf-8"><img style="vertical-align: middle;" border="0" src="./static/images/realonline.aw.gif?20160512" alt="点击这里给我发消息" p-categorie="自定义创意-点我咨询" p-action="click"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav-content" id="xuanci">
+            <iframe width="100%" style="margin-top: 40px;min-height:96px" src="" name="iframexuanci" id="iframexuanci" frameborder="0" scrolling="no"></iframe>
+            <div class="common-row" style="border-bottom:none">
+                <div class="common-row-l">
+                    <h3 class="ty-title">功能简介</h3>
+                    <ul class="ty-msg">
+                        <li>选词功能是省油宝软件核心功能之一，根据宝贝的标题、类目、属性等自动筛选精准关键词，并根据成交转化情况进行自动调整优化。</li>
+                    </ul>
+                </div>
+                <div class="common-row-r">
+                    <h3 class="ty-title">使用说明</h3>
+                    <ul class="ty-msg">
+                        <li>输入宝贝链接，点击选词，即可生成精准匹配选词；更多详情请购买省油宝软件或咨询客服。</li>
+                    </ul>
+                    <div class="mt30">
+                        <a target="_blank" href="https://fuwu.taobao.com/ser/detail.html?spm=a1z13.1113643.0.0.QjiYXD&amp;service_code=ts-1796606&amp;from=gw_xuanci" class="experience-see-more" p-categorie="选词-详情页" p-action="click">查看更多详情</a>
+
+                        <a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E9%BA%A6%E8%8B%97%E7%BD%91%E7%BB%9C%E6%8A%80%E6%9C%AF&amp;siteid=cntaobao&amp;status=2&amp;charset=utf-8"><img style="vertical-align: middle;" border="0" src="./static/images/realonline.aw.gif?20160512" alt="点击这里给我发消息" p-categorie="选词-点我咨询" p-action="click"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav-content" id="gwtaoci">
+            <iframe width="100%" src="" name="iframegwtaoci" id="iframegwtaoci" frameborder="0" scrolling="no"></iframe>
+            <div class="common-row">
+                <div class="common-row-l">
+                    <h3 class="ty-title">功能简介</h3>
+                    <ul class="ty-msg">
+                        <li>手动输入核心关键词，软件自动筛选相关关键词，使用筛选器能够匹配不同需求选出适合的词。高级模式拥有更多筛选条件。</li>
+                    </ul>
+                </div>
+                <div class="common-row-r">
+                    <h3 class="ty-title">使用说明</h3>
+                    <ul class="ty-msg">
+                        <li>此页面支持新淘词的体验；更多详情请购买省油宝软件或咨询客服。</li>
+                    </ul>
+                    <div class="mt30">
+                        <a target="_blank" href="https://fuwu.taobao.com/ser/detail.html?spm=a1z13.1113643.0.0.QjiYXD&amp;service_code=ts-1796606&amp;from=gw_tc" class="experience-see-more" p-categorie="淘词-详情页" p-action="click">查看更多详情</a>
+
+                        <a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E9%BA%A6%E8%8B%97%E7%BD%91%E7%BB%9C%E6%8A%80%E6%9C%AF&amp;siteid=cntaobao&amp;status=2&amp;charset=utf-8"><img style="vertical-align: middle;" border="0" src="./static/images/realonline.aw.gif?20160512" alt="点击这里给我发消息" p-categorie="淘词分享-点我咨询" p-action="click"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav-content" id="price">
+            <iframe width="100%" style="margin-top:40px;min-height:250px" src="" name="iframeprice" id="iframeprice" frameborder="0" scrolling="no"></iframe>
+            <div class="common-row">
+                <div class="common-row-l" style="border-right: 1px solid #efefef">
+                    <h3 class="ty-title">使用说明 <span>报表无出价项，系统分析以CPC作为原始出价。</span></h3>
+                    <div class="price-img">
+                        <img src="./static/images/price_step.png?20160512" width="100%">
+                        <a href="javascript:;" class="show-guide-btn" title=""点击查看教程></a>
+                    </div>
+                </div>
+                <div class="common-row-r" style="border-left:none">
+                    <h3 class="ty-title">功能简介</h3>
+                    <ul class="ty-msg">
+                        <li>优化分析功能是省油宝软件通过分析推广组宝贝基础数据后，全自动对关键词改价的功能，具有实时性强、精准性高的特点。<br>更多详情请购买省油宝软件或咨询客服。</li>
+                    </ul>
+                    <div class="mt30">
+                        <a target="_blank" href="https://fuwu.taobao.com/ser/detail.html?spm=a1z13.1113643.0.0.QjiYXD&amp;service_code=ts-1796606&amp;from=gw_yhcj" class="experience-see-more" p-categorie="优化出价-详情页" p-action="click">查看更多详情</a>
+
+                        <a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E9%BA%A6%E8%8B%97%E7%BD%91%E7%BB%9C%E6%8A%80%E6%9C%AF&amp;siteid=cntaobao&amp;status=2&amp;charset=utf-8"><img style="vertical-align: middle;" border="0" src="./static/images/realonline.aw.gif?20160512" alt="点击这里给我发消息" p-categorie="优化出价-点我咨询" p-action="click"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="load-hide">
+                <p style="font-size:24px;margin:10px 0 25px;">优化举例</p>
+                <img src="./static/images/yhjl.png" width="100%">
+            </div>
+        </div>
+
+
+        <!-- 规则 common start -->
+        <!-- <div class="r-info-wrap0 r-info-wrap1">
+            <img src="./static/images/p1.png?20160523">
+        </div> -->
+        <div class="r-info-wrap0 r-info-wrap2">
+            <img src="./static/images/p2.png?20170725">
+        </div>
+        <div class="r-info-wrap0 r-info-wrap3">
+            <img src="./static/images/p3.png?20160523">
+        </div>
+        <a class="order-btn-orange" href="https://fuwu.taobao.com/ser/detail.html?spm=a1z13.1113643.0.0.BjCoAX&service_code=ts-1796606&tracelog=yhgzfx1" target="_blank">购买省油宝领航版，立即使用<span class="apply-name">优化规则包</span>&gt;&gt;</a>
+
+        <!-- 规则 common end -->
+    </div>
+
+    <div class="footer clearfix">
+        <div class="container clearfix">
+            <div class="logo fl">
+                <img src="./static/images/logo_footer.png?20150522">
+            </div>
+            <dl class="nobor">
+                <dt>产品和服务</dt>
+                <dd><a href="/service">服务介绍</a></dd>
+                <dd><a href="/service">产品介绍</a></dd>
+                <dd><a href="http://www.maimiaotech.com/syb.html">省油宝</a></dd>
+            </dl>
+            <dl>
+                <dt>新闻动态</dt>
+                <dd>公司动态</dd>
+                <dd>行业动态</dd>
+            </dl>
+            <dl>
+                <dt>关于我们</dt>
+                <dd><a href="/about">公司介绍</a></dd>
+                <dd><a href="/about">团队介绍</a></dd>
+            </dl>
+            <dl>
+                <dt>人才招聘</dt>
+                <dd><a href="/recruitment">岗位招聘</dd>
+                <dd><a href="/recruitment">人才培训</a></dd>
+                <dd><a href="/recruitment">价值观</a></dd>
+                <dd><a href="/recruitment">员工福利</a></dd>
+            </dl>
+            <dl>
+                <dt>联系我们</dt>
+                <dd><a href="/contact">公司地址</a></dd>
+                <dd><a href="/contact">联系电话</a></dd>
+            </dl>
+            <div class="phone"><i class="icon icon-phone"></i> 400-0807-086</div>
+
+        </div>
+        <div class="container clearfix use-link">
+            <span>友情链接：&nbsp;&nbsp;</span>
+            <a href="http://about.comix.com.cn/#home" target="_blank">齐心集团官网</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="http://www.17cai.com/control/main" target="_blank">齐采网</a>
+        </div>
+        <p class="clearfix">Copyright © 杭州麦苗网络技术有限公司 2012 <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010602001426" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="http://static.maimiaotech.com/icon-police.png" style="float:left;margin: 2px 4px 0 4px;"/>浙公网安备 33010602001426号</a></p>
+    </div>
+    <!-- contact start -->
+    <!--浮窗-->
+    <div class="contact-wrap">
+        <a target="_blank" class="contact contact-0" href="http://www.taobao.com/webww/ww.php?ver=3&touid=%E9%BA%A6%E8%8B%97%E7%BD%91%E7%BB%9C%E6%8A%80%E6%9C%AF%3A%E8%92%99%E8%92%99&siteid=cntaobao&status=2&charset=utf-8" title="和我联系" p-categorie="gw-right-contact0" p-action="click"></a>
+        <a target="_blank" class="contact contact-1" href="http://www.taobao.com/webww/ww.php?ver=3&touid=%E9%BA%A6%E8%8B%97%E7%BD%91%E7%BB%9C%E6%8A%80%E6%9C%AF%3A%E9%A6%99%E9%A6%99&siteid=cntaobao&status=2&charset=utf-8" title="和我联系" p-categorie="gw-right-contact1" p-action="click"></a>
+        <a target="_blank" class="contact contact-2" href="http://www.taobao.com/webww/ww.php?ver=3&touid=%E9%BA%A6%E8%8B%97%E7%BD%91%E7%BB%9C%E6%8A%80%E6%9C%AF%3A%E5%B9%BD%E5%B9%BD&siteid=cntaobao&status=2&charset=utf-8" title="立即咨询" p-categorie="gw-right-contact2" p-action="click"></a>
+
+        <a href="javascript:;" class="contact toMin" title="最小化"></a>
+        <a href="javascript:;" class="contact toTop" title="回到顶部"></a>
+    </div>
+    <!--浮窗-->
+    <div class="min-contact-wrap" title="点击恢复联系浮窗"></div>
+    <!-- contact end -->
+    <div id="mask"></div>
+    <div class="modal" id="guide_pop">
+        <div class="content">
+            <div class="pop-title">
+                <h1>下载报表教程</h1>
+                <a href="javascript:;" class="close"></a>
+            </div>
+            <div class="pop-body ac">
+                <div class="guide-step">
+                    <h1>第一步</h1>
+                    <p>进入淘宝直通车页面，点击左侧“直通车报表”，进入报表详情页。</p>
+                    <img src="./static/images//guide/guide1.png" >
+                </div>
+                <hr style="width: 60%">
+                <div class="guide-step">
+                    <h1>第二步</h1>
+                    <p>在报表页面下部，点击下载按钮，选择报表类型为关键字，确定时间范围为7天，输入报表名称，确认后生成文件。</p>
+                    <img src="./static/images//guide/guide2.png" >
+                </div>
+                <hr style="width: 60%">
+                <div class="guide-step">
+                    <h1>第三步</h1>
+                    <p>点击弹窗中的“已导出文件列表”，进入管理报表页面。</p>
+                    <img src="./static/images//guide/guide3.png" >
+                </div>
+                <hr style="width: 60%">
+                <div class="guide-step">
+                    <h1>第四步</h1>
+                    <p>在管理报表页面中，勾选目标报表点击下载即可。直通车生成报表速度可能较慢，请耐心等待。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="get_contact_pop">
+        <div class="content">
+            <div class="pop-body ac">
+                <iframe id="iframegwcontact" width="100%" style="min-height: 550px" src="" frameborder="0" scrolling="no"></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="qn_pop" style="display:none;width:591px;margin:0 auto">
+        <div class="content" style="padding:0;background:transparent">
+            <div class="pop-body ac" style="position:relative">
+                <img src="./static/images/qn.png"  width="591" height="431" >
+                <a class="bn bn0" href="https://fuwu.taobao.com/ser/detail.html?service_code=FW_GOODS-1886206&from=experience" target="_blank" title="立即试用"></a>
+                <div class="no-more">
+                    <label for="no_more_qn"><input type="checkbox" id="no_more_qn">不在提醒</label>
+                </div>
+                <a class="bn bn1" href="javascript:;" title="关闭"></a>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./static/js/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(function(){
+        //ref来源始终带着
+        var ref_str;
+        var LINK_RE = /.*(?:\&|\?)ref=(\w+)\&?.*/;
+        if(location.href.indexOf('ref=') > -1){
+            ref_str = location.href.match(LINK_RE);
+            if(ref_str[1]){//每个导航都带上ref
+                $.each($('.menu-nav a'), function(i, el){
+                    $(el).attr('href', $(el).attr('href')+'?ref='+ref_str[1]);
+                });
+                $('.link-new').attr('href', $('.link-new').attr('href')+'&ref='+ref_str[1]);
+                $('.link-import').attr('href', $('.link-import').attr('href')+'&ref='+ref_str[1]);
+            }
+        }else{
+            window.location.search += (window.location.search ? '&' : '?') + 'ref=guanwang';
+        }
+
+        if(location.href.indexOf('from=service') > -1){
+            var date = new Date();
+            date.setTime(date.getTime()+1000*24*60*60*1000);
+            document.cookie = 'has_contacted='+true+';expires='+date.toGMTString()+';domain=maimiaotech.com';
+        }
+        //省牛弹窗
+        // if(location.href.match(LINK_RE)[1] !== 'xiangqing' && !getCookie('no_more_qn') ){
+        //     $('#mask, #qn_pop').show();
+        // }
+        // var st_qn;
+        // $('.bn1').click(function(e) {
+        //     e.preventDefault();
+        //     $('#mask, #qn_pop').hide();
+        //     if($('#no_more_qn')[0].checked){
+        //         var date = new Date();
+        //         date.setTime(date.getTime()+1000*24*60*60*1000);
+        //         document.cookie = 'no_more_qn='+true+';expires='+date.toGMTString()+';domain=maimiaotech.com';
+        //     }else{
+        //         if(st_qn){
+        //             clearInterval(st_qn);
+        //             st_qn = null;
+        //         }
+        //         st_qn = setInterval(function(){
+        //             if(!$('#mask').is(':visible')){
+        //                 $('#mask, #qn_pop').show();
+        //             }
+        //         }, 5*60*1000);
+        //     }
+        // });
+
+        //是否获取用户信息
+        /*if(!(getCookie('has_contacted') || location.href.indexOf('from=service') > -1)){
+            $('#mask, #get_contact_pop').show();
+            $('#iframegwcontact').attr('src', 'http://syb.maimiaotech.com/gwcontact'+location.search);
+        }*/
+
+        function getCookie(name) {
+            var cookieValue = null;
+            if(document.cookie && document.cookie != '') {
+                var cookies = document.cookie.split(';');
+                for(var i = 0; i < cookies.length; i++) {
+                    var cookie = jQuery.trim(cookies[i]);
+                    // Does this cookie string begin with the name we want?
+                    if(cookie.substring(0, name.length + 1) == (name + '=')) {
+                        cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                        break;
+                    }
+                }
+            }
+            return cookieValue;
+        }
+        /*
+            约定 $('.nav-content')的id 为 id
+            则其中的iframe的id为 'iframe' + id
+            nav的href 为 '#' + id
+        */
+        var NAME = {
+            0: '优化规则包',
+            1: '优化规则包',
+            //2: '创意优化',
+            2: '自动选词',
+            3: '手动淘词',
+            4: '优化出价',
+        };
+        var LOG = {
+            0: 'yhgzfx1',
+            1: 'yhgzfx1',
+            //2: 'creative',
+            2: 'xuanci',
+            3: 'taoci',
+            4: 'yhcj',
+        }
+        $(".nav-tab").click(function(e) {
+            e.preventDefault()
+
+            var id = $(this).attr('href').substring(1), index = $(this).index();
+            if(!$('#iframe' + id).attr('src')){
+                $('#iframe' + id).attr('src', 'http://syb.maimiaotech.com/' + id +location.search);
+            }
+            // if(index > 1){
+            //     $('.r-info-wrap3').hide();
+            // }else{
+            //     $('.r-info-wrap3').show();
+            // }
+            if($.inArray(index, [2,3,4,5]) > -1){//不要展示
+                $('.r-info-wrap0,.order-btn-orange').hide();
+            }else{
+                $('.r-info-wrap0,.order-btn-orange').show();
+            }
+            $('.order-btn-orange').attr('href','https://fuwu.taobao.com/ser/detail.html?spm=a1z13.1113643.0.0.BjCoAX&service_code=ts-1796606&tracelog='+LOG[index]).find('.apply-name').html(NAME[index]);
+            $(".nav-tab").removeClass('active').filter('[href="#' + id + '"]').addClass('active')
+            $(".nav-content").removeClass('active').filter('#' + id).addClass('active')
+        });
+        //tab选中
+        if(location.hash){
+            $(".nav-tab[href="+location.hash+"]").trigger('click');
+        }else{//默认展示第一个tab
+            $(".nav-tab:eq(0)").trigger('click');
+        }
+        //报表下载教程
+        $('.show-guide-btn').click(function(e){
+            e.preventDefault();
+            $('#mask, #guide_pop').show();
+        });
+        $('.close').click(function(e){
+            e.preventDefault();
+            $('#mask, #guide_pop').hide();
+        });
+        //联系我们
+        $('.toMin, .min-contact-wrap').click(function(e) {
+            $('.min-contact-wrap, .contact-wrap').toggle();
+        });
+        $('.toTop').click(function(e) {
+            $("html,body").animate({scrollTop:"0px"},200);
+        });
+        window.addEventListener('message', function(e){
+            if(e.origin.indexOf('maimiaotech.com') > -1){
+                var params = e.data.split('#')
+                if(params[0] === 'iframeHeight'){
+                    $('#iframe' + params[1]).css('height',params[2])
+                }else if(params[0] === 'hideMask'){
+                    $('#mask, #get_contact_pop').hide();
+                }else if(params[0] === 'price'){
+                    $('.load-hide').hide();
+                }
+            }
+        })
+    })
+    </script>
+
+    <!--百度统计代码-->
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?cdf011a9ef990ca0279ffdab9ccb5605";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+        $('body').delegate('a, button', 'click', function(){
+            if($(this).attr('p-categorie') && $(this).attr('p-action')) {
+                window._hmt.push(['_trackEvent', $(this).attr('p-categorie'), $(this).attr('p-action')]);
+            }
+        });
+    </script>
+</body>
+</html>

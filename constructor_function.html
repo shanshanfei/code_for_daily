@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+
+		<script>
+			function Person(){
+				this.age = 18;
+				//return 123;//返回简单类型
+				return {age: 20};//返回一个对象
+			}
+			var p = new Person();
+			alert(p.age);// 18 || 20
+			//构造函数的规范定义：
+			//当构造函数返回简单类型时，与无return语句时表现是一样的，返回实例化的对象，
+			//当返回是引用类型对象时，则返回引用对象的值。
+		</script>
+
+	</body>
+</html>
