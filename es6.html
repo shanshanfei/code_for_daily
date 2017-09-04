@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script>
+			// let [a,b] = [1, 2];
+			// console.log(a, b)
+
+
+			// var jsonData = {
+			//     id: 42,
+			//     status: "OK",
+			//     data: [867, 5309]
+			// };
+			// let { id, status, data: number } = jsonData;
+			// console.log(id, status, number);
+
+
+			//var [(a)] = [1]; //因为带了圆括号 所以报错
+			// var b;
+			// [(b)] = [2];//b提前声明了，所以没报错
+			// console.log(b)
+
+
+			//var {x: (c)} = {x: 2};//报错 因为变量声明时不允许使用圆括号，此处因为是c的声明语句
+			// var c;
+			// ({p: (c)} = {p: 2});//最外层用圆括号括起来才能正确运行: 当你已经声明、或者不打算声明（var let const）时，需要用圆括号括起，不然引擎解析到第一个{时，认为是代码块
+			// ({b:d} = {b:1});
+			// console.log(c, d);
+
+
+			/*let [a, b, c, d, e] = 'hello';
+			console.log(a,b,c,d,e);*/
+
+			/*var s1 = Symbol('foo');
+			var s2 = Symbol('bar');
+			console.log(s1, s2);*/
+
+			/*let arr = ['a', 'b', 'c'];
+			let iter = arr[Symbol.iterator]();
+			console.log(iter.next()); // { value: 'a', done: false }*/
+
+
+			/*
+			 ******************* 八、函数的扩展 *******************
+			 */
+
+			/*
+			//函数参数是默认声明的，不能在函数体内再次使用let const再次声明
+			function foo(x = 5) {
+				//let x = 1; // error
+				//const x = 2; // error
+				var x = 4;//可以正常运行
+				console.log(x);
+			}
+			foo();
+			*/
+
+			/*
+			//二者的区别是：m1是给解构赋值加了默认值，m2是给函数参数加了默认值
+			//个人觉得给解构赋值加默认值更好，这样不传参 或者 传参为空时，都会有默认值返回
+			// 写法一：推荐
+			function m1({x = 3, y = 3} = {}) {
+			 	return [x, y];
+			}
+			// 写法二
+			function m2({x, y} = { x: 0, y: 0 }) {
+			 	return [x, y];
+			}
+			console.log(m1({}));//[3, 3]
+			console.log(m2({}));//[undefined, undefined]
+			*/
+
+			/*
+			//function函数会有一个length属性，返回形参的个数（注意：不是实参）：代表函数预期传入的参数个数，某参数有了默认值后，预期传入的参数个数自然就减1了
+			//在ES6中，返回的是第一个指定了默认值的字段前的形参个数，见示例：
+			console.log( (function(a,b,c,d,e){}).length );//5
+			console.log( (function(a,b,c=2,d=2,e){}).length );//2
+			console.log( (function(...rest){}).length );//0  *注意*
+			//function还有name属性，返回函数的名字，bind绑定的函数返回“bound funName”
+			*/
+
+			/*
+			var x = 1;//跟这句没关系
+			function foo(x, y = function() { x = 2; }) {
+				var x = 3;
+				y();//y函数操作的是形参中的x，函数体中又重新声明了一个x，输出的是重新声明的x，所以输出3
+				//如果将上一句的var去掉 即操作的都是形参x，所以输出2
+				console.log(x);
+			}
+			foo();// 加var：3，不加var：2
+			*/
+
+			/*
+			//rest参数：...参数名 只能是函数参数的最后一个，否则报错
+			//rest参数：数组格式，获取多余参数
+			function f(a, ...b, c) {}//error
+			*/
+
+			/*
+			//扩展运算符：...arr 作用是将数组转换成逗号分隔的参数序列，可视为rest参数的逆运算
+			//扩展运算符...可以运用到可迭代的对象上（实现了iterator接口的对象）
+			function push(arr, ...items){
+				arr.push(...items);
+			}
+			//可以替代apply函数
+			function a(x,y,z){}
+			var arr = [1,2,3];
+			a(..arr);//ES6
+			a.apply(null, arr);//ES5
+			*/
+
+			/*
+			//箭头函数没有自己的this，始终指向上层作用域的this，this始终指向定义时的对象，而非调用时的对象。
+			function Timer() {
+			    this.s1 = 0;
+			    this.s2 = 0;
+			    setInterval(() => this.s1++, 1000);// 箭头函数 this始终指向Timer
+			    setInterval(function () {// 普通函数 this指向全局作用域
+			    	this.s2++;
+			    }, 1000);
+			}
+			var timer = new Timer();
+			setTimeout(() => console.log('s1: ', timer.s1), 3100);//3
+			setTimeout(() => console.log('s2: ', timer.s2), 3100);//0
+			*/
+
+			/*
+			//这段代码始终只有一个this对象，就是foo中的this，其他都是箭头函数，无this对象
+			function foo() {
+				return () => {
+					return () => {
+						return () => {
+							console.log('id:', this.id);
+						};
+					};
+				};
+			}
+			var f = foo.call({id: 1});
+			var t1 = f.call({id: 2})()();//1
+			var t2 = f().call({id: 3})();//1
+			var t3 = f()().call({id: 4});//1
+			*/
+
+			/*
+			 ******************* 七、数组的扩展 *******************
+			 */
+
+			//数组空位：ES6明确把数组空位处理成undefined。ES5各函数处理时也不同，
+			//空位的处理规则非常不统一，所以尽量避免数组空位。
+			//[1,2,3].includes(3, 0);// true 第一个参数是要判断的值，第二个参数是开始判断的位置
+			//[1,2,3].includes(3, -1);// true index为负数时，从最后一个位置（-1）开始倒数，超过数组长度时重置为0
+			//arr.entries() .keys()  .values()
+			//arr.fill(content, start, end) //填充 start ~ end-1 位置的内容为content
+			//arr.find(fun)返回第一个满足条件的数组成员
+			//arr.findIndex(fun)返回第一个满足条件的数组成员的下标，无则返回-1
+			//Array.of() 将一组值转换成数组，弥补new Array参数个数不同时的表现差异（一个参数时表示数组长度）
+
+			/*
+			 *************************** 深入浅出ES6 **********************************
+			 * http://www.infoq.com/cn/es6-in-depth/
+			 */
+
+			//Object.create(prototype, {属性设置}) //ES5创建对象的方式，可实现继承
+
+			// ************ 迭代器 + for of ************
+			//for in一般用于遍历对象键值，不用于数组，否则获取到的是字符串类型的索引
+			// for(var index in array){ console.log(typeof index);} //string
+
+			//遍历数组：forEach，缺点：不能用break or return 中断循环；
+			//for of 可遍历数组、字符串、类数组、map set数据，可以正常使用break continue return
+
+			// ************ 生成器：Generator ************
+			//生成器函数：function* funcName(){yeild ppp1; yeild ppp2;}
+			//生成器函数遇到yeild则暂停执行 .next()函数恢复执行，而且调用生成器函数后，并不立即执行（普通函数一经调用则立即执行）
+
+			// ************ 模板字符串`name：${name}` ************
+
+
+
+
+
+
+
+
+
+
+		</script>
+	</body>
+</html>
